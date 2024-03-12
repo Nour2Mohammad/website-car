@@ -1,0 +1,164 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+section,footer{
+    display: block;
+    flex-direction: column;
+}
+.menu{
+    width: 100%;
+    height: 100vh;
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header{
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    z-index: 99;
+    padding-top: 20px;
+    /*padding-left: 65px;*/
+    display: flex;
+    text-transform: capitalize;
+    justify-content: space-around;
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+}
+
+.menu header .logo_img{
+    width: 80px;
+    height: 30px;
+    margin-right: 200px;
+}
+.menu header .navigation{
+margin-top: 10px;
+}
+.menu header .navigation a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: black;
+    font-weight: bold;
+    position: relative;
+}
+#home{
+    color: #976E72;
+}
+.menu header .navigation #home::before{
+    content: '';
+    position: absolute;
+    left: -4px;
+    bottom: -5px;
+    background-color: #976E72;
+    height: 3px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.menu header img{
+    width: 30px;
+    height: 30px;
+}
+.btn1{
+    color: #976E72;
+    border-radius: 20px;
+    padding: 10px;
+    width: 100px;
+    background-color: white;
+    border: 1px solid #976E72;
+    font-weight: bold;
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.btn2{
+    background-color: #976E72;
+    color: white;
+    font-weight: bold;
+    font-size: 23px;
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    border-radius: 40px;
+    border: none;
+    padding: 11px 52px 11px 52px;
+    cursor: pointer;
+}
+.menu .vector img{
+    width: 850px;
+    height: 1000px;
+    position: absolute;
+    right: 0;
+    top: 70px;
+    z-index: -999;
+}
+.frame2{
+    width: 100%;
+    height:100vh ;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.frame2 .LeftPage{
+    width: 60%;
+}
+.frame2 .RightPage{
+    width: 30%;
+}
+.frame2 .LeftPage .HeaderLeftPage h1{
+    color: rgba(0, 0, 0, 0.77);
+    font-size: 50px;
+    margin: 150px 32px 20px 120px;
+}
+.frame2 .LeftPage .HeaderLeftPage h3{
+color:  rgba(151, 110, 114, 1);
+font-size: 38px;
+margin: 40px 32px 20px 120px;
+}
+.frame2 .LeftPage img{
+    width: 650px;
+    height: 350px;
+    margin-left: 180px;
+    margin-top: 20px;
+}
+.frame2 .RightPage{
+    color:  rgba(0, 0, 0, 0.77);
+}
+.frame2 .RightPage div{
+    margin-bottom: 50px;
+}
+.frame2 .RightPage h1{
+    margin: 180px 32px 20px 0px;
+    font-size: 35px;
+}
+.frame2 .RightPage h3{
+    font-size: 25px;
+}
+.frame2 .RightPage p{
+    color:  rgba(0, 0, 0, 0.5);
+}
+.key{
+    display: flex;
+    justify-content: space-between;
+}
+.key button{
+    margin-top: 20px;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    font-weight:200;
+    text-align: center;
+    border-radius: 40px;
+    padding: 10px;
+    cursor: pointer;
+}

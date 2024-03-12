@@ -1,0 +1,149 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    position: relative;
+}
+header{
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+    padding-top: 20px;
+    display: flex;
+    text-transform: capitalize;
+    justify-content: space-around;
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.menu header .logo_img{
+    width: 80px;
+    height: 30px;
+    margin-right: 200px;
+}
+.menu header .navigation{
+margin-top: 10px;
+}
+.menu header .navigation a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: black;
+    font-weight: bold;
+    position: relative;
+}
+#home{
+    color: #976E72;
+}
+.menu header .navigation #home::before{
+    content: '';
+    position: absolute;
+    left: -4px;
+    bottom: -5px;
+    background-color: #976E72;
+    height: 3px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.menu header img{
+    width: 30px;
+    height: 30px;
+}
+.btn1{
+    color: #976E72;
+    border-radius: 20px;
+    padding: 10px;
+    width: 100px;
+    background-color: white;
+    border: 1px solid #976E72;
+    font-weight: bold;
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.menu header .frame{
+    display: flex;
+    gap: 54px;
+    margin-right: 60px;
+    margin-left: 100px;
+}
+.menu .stel{
+    position:sticky;
+    left: 0px;
+    top: -25px;
+}
+.menu .stel img{
+    width: 75%;
+    height:20% ;
+    margin-left: 0px;
+    margin-top: -25px;
+
+
+
+}
+.menu  h1{
+    color: rgba(0, 0, 0, 0.72);
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: absolute;
+    top: 110px;
+    left: 100px;
+    font-size: 50px;
+}
+.menu  h1::before{
+    content: '';
+    position: absolute;
+    left: -4px;
+    bottom: -20px;
+    background-color: rgba(0, 0, 0, 0.72);
+    height: 5px;
+    box-sizing: border-box;
+    width: 250px;
+    border-radius: 8px;
+}
+.menu table{
+    position: absolute;
+    top: 290px;
+    left: 100px;
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.menu table td ,th{
+    width: 250px;
+    height: 70px;
+    text-align: start;
+    color: rgba(0, 0, 0, 0.75);
+}
+.menu table td {
+    font-size: 15px;
+    font-weight: 100;
+    color:  rgba(0, 0, 0, 0.5);
+    ;
+}
+.menu table th{
+    font-size: 23px;
+    position: static;
+}
+.menu table tr{
+    gap: 11px;
+}
+.menu table img{
+    width: 150px;
+    height: 150px;
+}
+.menu table .close{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+.menu table h3{
+    color: rgba(0, 0, 0, 0.75);
+    font-size: 25px;
+}
